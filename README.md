@@ -49,3 +49,17 @@ The objective of the **Affordable Abaya Store** is to create a user-friendly e-c
   - Category
   - Price
 - Users can **filter by price**.
+##UI
+![Cover 1](https://github.com/user-attachments/assets/ef9a4a84-1409-4515-962f-dc51bc50be43)
+
+<img width="189" alt="image" src="https://github.com/user-attachments/assets/8b25551a-6e20-4034-b28a-1e4d43010119">
+<img width="193" alt="image" src="https://github.com/user-attachments/assets/522ca888-7824-401e-9ae7-ff27de39e3c5">
+<img width="190" alt="image" src="https://github.com/user-attachments/assets/38cda776-a276-4da4-b60f-208688ea636c">
+<img width="201" alt="image" src="https://github.com/user-attachments/assets/a4f7d4f8-c1f8-410f-bf0b-76a82173feb6">
+<img width="187" alt="image" src="https://github.com/user-attachments/assets/ba16bafc-55d2-4a3f-92fb-9508e589eb77">
+
+
+
+
+
+
