@@ -1,0 +1,120 @@
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget {
+  final List<Map<String, dynamic>> products = [
+    {
+      "image": "assets/a.webp",
+      "name": "Abaya 1",
+      "price": "\$100",
+      "category": "Kaftan",
+      "description": "Elegant black abaya with intricate embroidery.",
+    },
+    {
+      "image": "assets/b.jpeg",
+      "name": "Abaya 2",
+      "price": "\$120",
+      "category": "Kaftan",
+      "description": "Stylish abaya with golden highlights.",
+    },
+    {
+      "image": "assets/c.jpeg",
+      "name": "Abaya 3",
+      "price": "\$80",
+      "category": "Scarf",
+      "description": "Lightweight scarf with floral design.",
+    },
+    {
+      "image": "assets/d.jpeg",
+      "name": "Abaya 4",
+      "price": "\$90",
+      "category": "Scarf",
+      "description": "Modern scarf with bright patterns.",
+    },
+    {
+      "image": "assets/e.jpeg",
+      "name": "Abaya 5",
+      "price": "\$150",
+      "category": "Kaftan",
+      "description": "Premium abaya with classic Arabic designs.",
+    },
+    {
+      "image": "assets/f.jpeg",
+      "name": "Abaya 6",
+      "price": "\$200",
+      "category": "Kaftan",
+      "description": "Luxurious abaya with a royal touch.",
+    },
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Sasta Abaya Store'),
+        backgroundColor: Colors.brown,
+        centerTitle: true,
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: GridView.builder(
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            crossAxisSpacing: 10,
+            mainAxisSpacing: 10,
+          ),
+          itemCount: products.length,
+          itemBuilder: (context, index) {
+            final product = products[index];
+            return GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ProductDetailsScreen(product: product),
+                  ),
+                );
+              },
+              child: Card(
+                elevation: 3,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Expanded(
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.vertical(
+                          top: Radius.circular(10),
+                        ),
+                        child: Image.asset(
+                          product['image'],
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            product['name'],
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Text(product['price']),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}

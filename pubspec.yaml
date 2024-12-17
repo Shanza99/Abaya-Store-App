@@ -1,0 +1,25 @@
+name: abaya_store2
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to the App Store or Google Play
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/a.webp
+    - assets/b.jpeg
+    - assets/c.jpeg
+    - assets/d.jpeg
+    - assets/e.jpeg
+    - assets/f.jpeg
