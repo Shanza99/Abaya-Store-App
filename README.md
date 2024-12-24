@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-# abaya_store2
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
 # Sata Abaya Store
 
 ## Project Objective
@@ -76,6 +58,23 @@ The objective of the **Affordable Abaya Store** is to create a user-friendly e-c
 <img width="190" alt="image" src="https://github.com/user-attachments/assets/38cda776-a276-4da4-b60f-208688ea636c">
 <img width="201" alt="image" src="https://github.com/user-attachments/assets/a4f7d4f8-c1f8-410f-bf0b-76a82173feb6">
 <img width="187" alt="image" src="https://github.com/user-attachments/assets/ba16bafc-55d2-4a3f-92fb-9508e589eb77">
+
+## Output
+
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/415d8273-aac5-4b06-9104-4ecd066f9249" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/47b73a4e-37c0-4c97-bb0f-274dc0f69858" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/5bf4ebe7-5be5-4ea6-b6a7-dc1479613df5" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/0da8e40a-5c0f-441f-957e-605b5847f4ad" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/3d9db57e-3fbb-4444-88aa-7b93cfa54fcf" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/b9f235a6-3dee-4b55-8931-d0100377fdbe" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/9be4fdcc-5364-4226-97f3-5bd8a1f9824b" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/e9e3a445-b84d-4a67-b20e-6021f3dde1c4" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/6382b0aa-a906-46cd-bdcd-3566c5a6b70b" />
+
+
+## References
+App is designed with the help of ChatGPT
+
 
 
 
