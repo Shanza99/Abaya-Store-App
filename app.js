@@ -6,9 +6,9 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase
 // Your Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyB57IoE_JxtDQLGde8i6Regpwh2FVVcmcw",
-    authDomain: "resume-310cf.firebaseapp.com",
-    projectId: "resume-310cf",
-    storageBucket: "resume-310cf.firebasestorage.app",
+    authDomain: "abaya-310cf.firebaseapp.com",
+    projectId: "abaya-310cf",
+    storageBucket: "abaya-310cf.firebasestorage.app",
     messagingSenderId: "87236198273",
     appId: "1:87236198273:web:e96784e13abb4af0dab280",
     measurementId: "G-JSH4TNDH9X"
