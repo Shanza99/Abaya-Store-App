@@ -76,9 +76,3 @@ The objective of the **Affordable Abaya Store** is to create a user-friendly e-c
 App is designed with the help of ChatGPT
 
 
-
-
-
-
-
->>>>>>> 0e2c1f25bf1ca27e9ba871141c8142bf2c10f92f
